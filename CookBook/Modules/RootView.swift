@@ -20,7 +20,7 @@ struct RootView: View {
                 .tabItem {
                     VStack {
                         Image(systemName: "doc.richtext")
-                        Text("News")
+                        Text("Новости")
                     }
             }
             RecepiesView()
@@ -29,7 +29,7 @@ struct RootView: View {
                 .tabItem {
                     VStack {
                         Image(systemName: "flame")
-                        Text("Recepies")
+                        Text("Рецепты")
                     }
             }
             ProfileView(user: User.defaultUser)
@@ -37,7 +37,7 @@ struct RootView: View {
                 .tabItem {
                     VStack {
                         Image(systemName: "person")
-                        Text("Profile")
+                        Text("Профиль")
                     }
             }
         }
