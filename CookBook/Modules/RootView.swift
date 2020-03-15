@@ -32,7 +32,7 @@ struct RootView: View {
                         Text("Recepies")
                     }
             }
-            ProfileView()
+            ProfileView(user: User.defaultUser)
                 .tag(NavigationState.Tab.profile)
                 .tabItem {
                     VStack {

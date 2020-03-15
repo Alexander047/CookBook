@@ -22,6 +22,8 @@
 		CEA4A7D7241D2FCD00DE88D4 /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4A7D6241D2FCD00DE88D4 /* NewsDetailView.swift */; };
 		CEA4A7DA241D338700DE88D4 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4A7D9241D338700DE88D4 /* LazyView.swift */; };
 		CEA4A7DC241D7A1E00DE88D4 /* RecepieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4A7DB241D7A1E00DE88D4 /* RecepieDetailView.swift */; };
+		CEF91AAE241E75F900DD4ADA /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF91AAD241E75F900DD4ADA /* ProfileData.swift */; };
+		CEF91AB1241E770F00DD4ADA /* ProfileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF91AB0241E770F00DD4ADA /* ProfileDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		CEA4A7D6241D2FCD00DE88D4 /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
 		CEA4A7D9241D338700DE88D4 /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 		CEA4A7DB241D7A1E00DE88D4 /* RecepieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieDetailView.swift; sourceTree = "<group>"; };
+		CEF91AAD241E75F900DD4ADA /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		CEF91AB0241E770F00DD4ADA /* ProfileDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 			children = (
 				CE14E196241D086A00B2F369 /* NewsData.swift */,
 				CE14E198241D087300B2F369 /* RecepiesData.swift */,
+				CEF91AAD241E75F900DD4ADA /* ProfileData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				CE1C48EA240D9C6F00E95FAF /* ProfileView.swift */,
+				CEF91AB0241E770F00DD4ADA /* ProfileDetailView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -245,8 +251,10 @@
 				CEA4A7DC241D7A1E00DE88D4 /* RecepieDetailView.swift in Sources */,
 				CE88D558240D8EA9001EA3A4 /* SceneDelegate.swift in Sources */,
 				CE88D55A240D8EA9001EA3A4 /* RootView.swift in Sources */,
+				CEF91AAE241E75F900DD4ADA /* ProfileData.swift in Sources */,
 				CEA4A7DA241D338700DE88D4 /* LazyView.swift in Sources */,
 				CE1C48EB240D9C6F00E95FAF /* ProfileView.swift in Sources */,
+				CEF91AB1241E770F00DD4ADA /* ProfileDetailView.swift in Sources */,
 				CE2CAD08241836660002828C /* NavigationState.swift in Sources */,
 				CE1C48E9240D9C5E00E95FAF /* RecepiesView.swift in Sources */,
 			);
