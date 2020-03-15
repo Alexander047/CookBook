@@ -32,7 +32,7 @@ struct ProfileView: View {
                                 Button(action: {
                                     self.presentDetail = true
                                 }) {
-                                    Text("Подробнее")
+                                    Text("Обо мне")
                                 }
                                 Spacer()
                             }
