@@ -10,11 +10,34 @@ import SwiftUI
 
 struct RecepieDetailView: View {
     
+    @EnvironmentObject var navigationState: NavigationState
+    
     let recepie: Recepie?
     
     var body: some View {
-        guard let recepie = recepie else { return Text("Ошибка: рецепт не найден") }
-        return Text(recepie.title)
+        ScrollView {
+            VStack {
+                HStack {
+                    Text(recepie?.title ?? "")
+                        .font(.system(size: 21,
+                                      weight: .semibold,
+                                      design: .serif))
+                    Spacer()
+                }
+                Image(recepie?.imageName ?? "")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding(.top, 8)
+                Text(recepie?.body ?? "")
+                    .font(.body)
+                    .padding(.top, 16)
+            } // VStack
+                .padding(EdgeInsets(top: 20,
+                                    leading: 16,
+                                    bottom: 20,
+                                    trailing: 16))
+        } // ScrollView
+            .navigationBarTitle("", displayMode: .inline)
     }
 }
 

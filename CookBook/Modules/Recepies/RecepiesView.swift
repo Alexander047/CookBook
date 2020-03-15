@@ -25,7 +25,7 @@ struct RecepiesView: View {
         
         NavigationView {
             VStack {
-                NavigationLink(destination: LazyView(RecepieDetailView(recepie: self.selectedRecepie)), isActive: $shouldNavigate) {
+                NavigationLink(destination: LazyView(RecepieDetailView(recepie: self.selectedRecepie).environmentObject(self.navigationState)), isActive: $shouldNavigate) {
                     EmptyView()
                 }
                 List {
